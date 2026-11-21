@@ -1,0 +1,40 @@
+.legal-page h1 {
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+}
+
+.legal-updated {
+  margin: 0.85rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.legal-note {
+  margin: 1rem 0 0;
+  padding: 0.95rem 1.05rem;
+  border-radius: 1rem;
+  background: rgba(99, 102, 241, 0.08);
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+.legal-stack {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2.2rem;
+}
+
+.legal-stack h2 {
+  font-size: 1.35rem;
+  margin-bottom: 0.55rem;
+}
+
+.legal-stack p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.legal-stack a {
+  color: var(--indigo);
+  font-weight: 600;
+}

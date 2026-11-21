@@ -1,0 +1,35 @@
+.about-story {
+  display: grid;
+  gap: 1rem;
+}
+
+.about-block {
+  padding: 1.7rem 1.55rem;
+}
+
+.about-block h2 {
+  font-size: 1.45rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-block p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.about-block.highlight {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.85)),
+    var(--gradient-soft);
+  border-color: transparent;
+  box-shadow: var(--shadow-card);
+}
+
+.about-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: var(--indigo);
+}
